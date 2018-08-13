@@ -1,0 +1,211 @@
+@charset "utf-8"; /*同一个网站的网页要采用同一种编码。对应的html页面有写charset="UTF-8"的话，css也写上吧*/
+*{
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-family: '微软雅黑',Arial;
+    font-size: 14px;
+}
+.top1{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.top1-1:hover{
+    border-bottom: 5px solid blue;
+}
+.top1-2{
+    margin-bottom: 0;
+    background-color: #d9ebf2ed;
+    opacity: 0.8;
+    font-weight: bolder;
+    position: absolute;
+    left:19%;
+    z-index: 8;
+}
+.cpfa-msg{
+    display: none;
+}
+.top-lbt{
+    border: none;
+    margin-bottom: 0;
+}
+.top-lbt ol{
+    bottom: 5px;
+    z-index: 11;
+    left: 466px;
+}
+.top-lbt ol li a{
+    border: 1px solid white;
+    background: none;
+}
+.search1{
+    position: absolute;
+    z-index: 12;
+    top: 442px;
+    left: 232px;
+}
+.search1 input{
+    padding-left: 40px;
+    width: 210px;
+    height: 26px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 25px;
+    border: 1px solid white;
+    background: border-box;
+    background-color: #ffffff63;
+    color: white;
+}
+.search1 input:focus{
+    background-color: #ffffff63;
+    border-color:white ;
+}
+.search1-1 img{
+    width:22px;
+    position: relative;
+    right: 204px;
+}
+.nr{
+    padding:40px 0;
+}
+.information{
+    font-size: 20px;
+    color: blue;
+}
+.nr1{
+    border-right: 1px solid #80808063;
+}
+.nr1 ul{
+    margin-top: 20px;
+}
+.nr1 ul li{
+    padding: 15px 0 13px 0;
+    border-bottom: 1px solid #80808063;
+}
+.nr1 ul li a{
+    font-size: 14px;
+}
+.nr1 ul li a:hover{
+    color:black;
+}
+.nr1 ul li span{
+    font-size: 13px;
+    color: #8fa1ff;
+}
+.video-img{
+    position: relative;
+}
+.video-img span{
+    display: inline-block;
+    height: 84px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 63px;
+}
+.video-img span:hover{
+    opacity:0.8;
+}
+.video-img-1{
+    height: 124px;
+}
+.img-video{
+    height: 124px;
+    background: black;
+    display: none;
+}
+.img-video img{
+    position: relative;
+    top: 30px;
+    left: 76px;
+}
+.ourServices{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #80808063;
+}
+.example1{
+    padding: 10px 10px 5px 50px;
+    position: relative;
+}
+.example1 img{
+    width: 38px;
+    position: absolute;
+    left:-4px;
+}
+.example1-1 p{
+    font-size: 14px;
+}
+.lbt2-1 li{
+    float: left;
+    padding: 0 25px;
+}
+.lbt2-1{
+    margin-top: 20px;
+    height: 125px;
+    overflow: hidden;
+}
+.lbt2{
+    border: none;
+    border-radius:0;
+    box-shadow: none;
+}
+.lbt2 ol{
+    display:none;
+}
+.lbt2 .flex-direction-nav li .flex-prev{
+    left: 0;
+}
+.lbt2 .flex-direction-nav li .flex-next{
+    right: 0;
+}
+.nr2{
+    background-color: #30383b;
+    color: #7f9096;
+    padding: 50px 0;
+}
+.nr2 h5{
+    color: #7f9096;
+}
+.nr2-1{
+    margin-top: 20px;
+}
+.nr2-1 li{
+    font-size: 14px;
+    padding: 5px 0;
+}
+.nr2-1 li:hover{
+    color: #dddddd;
+    cursor: pointer;
+}
+.wximg{
+    padding-left: 15%;
+}
+.foot1{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+.foot1 p{
+    font-size: 12px;
+    color: gray;
+}
+.foot1 img{
+    position: absolute;
+    left: 108px;
+}
+.top-lbt .slides > li{
+    margin: 0 auto;
+}
