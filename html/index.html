@@ -12,6 +12,8 @@
     <style type="text/css">
         h3{height:42px; line-height:42px; font-size:16px; font-weight:normal; text-align:center}
         h3 a{margin:10px}h3 a.cur{color:#f30}
+        #main{width:60%}
+        .slides li p{height:24px; line-height:24px; text-align:center}
     </style>
     <link rel="stylesheet" href="../css/zjmy.css"/>
 </head>
@@ -95,7 +97,7 @@
     </div>
 </div>
 <!--轮播图-->
-<div class="flexslider top-lbt">
+<div class="flexslider top-lbt" id="fl1">
     <ul class="slides">
         <li><img src="../img/ph1.jpg" /></li>
         <li><img src="../img/ph2.jpg" /></li>
@@ -209,7 +211,7 @@
         <!--案例-->
         <div class="information ourServices">案例&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;&nbsp;&nbsp;case</div>
         <!--轮播图2-->
-        <div class="flexslider lbt2">
+        <div class="flexslider lbt2" id="fl2">
             <ul class="slides">
                 <li>
                     <ul class="lbt2-1 clearfix">
@@ -270,6 +272,19 @@
         </div>
     </div>
 </div>
+<div class="flexslider carousel" id="flexslider">
+    <ul class="slides">
+        <li><img src="../images/1.jpg" /></li>
+        <li><img src="../images/2.jpg" /></li>
+        <li><img src="../images/3.jpg" /></li>
+        <li><img src="../images/4.jpg" /></li>
+        <li><img src="../images/5.jpg" /></li>
+        <li><img src="../images/6.jpg" /></li>
+        <li><img src="../images/7.jpg" /></li>
+        <li><img src="../images/8.jpg" /></li>
+        <li><img src="../images/9.jpg" /></li>
+    </ul>
+</div>
 <footer class="row foot1">
     <p>地址：北京市海淀区瀚河园路自在香山155-1 电话：010-88454878 传真：010-88458089</p>
     <a href="https://tongji.baidu.com/web/welcome/login"><img src="../img/21.gif"/></a>
@@ -289,10 +304,28 @@
 </script>
 <script type="text/javascript">
     $(function() {//轮播图12
-        $(".flexslider").flexslider({
+        $("#fl1").flexslider({
             slideshowSpeed: 4000, //展示时间间隔ms
             animationSpeed: 400, //滚动时间ms
             touch: true //是否支持触屏滑动
+        });
+        $("#fl2").flexslider({
+            slideshowSpeed: 4000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            touch: true //是否支持触屏滑动
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $("#flexslider").flexslider({
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            minItems: 2,
+            maxItems: 4
+            // pausePlay: true
         });
     });
 </script>
