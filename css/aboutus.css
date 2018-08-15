@@ -1,0 +1,225 @@
+@charset "utf-8"; /*同一个网站的网页要采用同一种编码。对应的html页面有写charset="UTF-8"的话，css也写上吧*/
+*{
+    border: 0 none;/*这是考虑button的默认属性，不好看才加的border*/
+    margin: 0;
+    outline: 0 none;/*outline边框属性*/
+    padding: 0;
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    color: #0C0C0C;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    visibility:hidden;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+.overflow{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.top1{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.top1-1:hover{
+    border-bottom: 5px solid blue;
+}
+.top1-2{
+    margin-bottom: 0;
+    background-color: #d9ebf2ed;
+    opacity: 0.8;
+    font-weight: bolder;
+    position: absolute;
+    left:19%;
+    z-index: 8;
+}
+.cpfa-msg{
+    display: none;
+}
+.imgzj img{
+    height: 220px;
+}
+.topback{
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 100;
+}
+.aboutus1 h6{
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid #808080a3;
+    margin-bottom: 15px;
+}
+.aboutus1 h6 i{
+    font-style: normal;
+    color: blue;
+}
+.aboutusmsg{
+    font-size: 14px;
+}
+.aboutusmsg div{
+    border-bottom: 1px dashed #80808061;
+    margin-bottom: 15px;
+}
+.aboutusmsg ul{
+    padding-left: 22px;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.aboutusmsg ul li{
+    padding: 2px 0;
+}
+.aboutusmsg ul li:hover{
+    color: #0C0C0C;
+    cursor: pointer;
+}
+.aboutusmsg div span:hover{
+    color: blue;
+    cursor: pointer;
+}
+.gsjsmsg{
+    display: none;
+}
+.xwzhmsg{
+    display: none;
+}
+.em0{
+    padding: 20px 0;
+}
+.em1{
+    border-bottom: 1px dashed #8080806e;
+    margin-bottom: 15px;
+}
+.em1 img{
+    float:right
+}
+.em1 h5{
+    float: left;
+}
+.em2 img{
+    float: left;
+    width: 37%;
+}
+.em2 p{
+    float: right;
+    text-indent: 2em;
+    font-size: 12px;
+    width: 60%;
+    line-height: 2;
+}
+.em3{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.em3 a{
+    padding-left: 20px;
+    background: url("../img/img_aboutus/dot.png") 0 0 no-repeat;
+    display: inline-block;
+    margin: 5px 0;
+    width: 49%;
+}
+.em4 a{
+    width: 24%;
+    color: #666666;
+}
+.em4 h6{
+    color: #999999;
+}
+.aboutfoot{
+    font-size: 12px;
+    color: #666666;
+    padding: 40px 0 20px 0;
+}
+.aboutfoot span{
+    text-align: right;
+}
+.productmsg a{
+    color: blue;
+}
+.product1{
+    display: block;
+    font-style: normal;
+    padding-left: 20px;
+}
+.edu_em1{
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 7px 0;
+}
+
+.edu_em0 p{
+    float: none;
+    width: 95%;
+    font-size: 14px;
+}
+.edu_em2 span{
+    display: block;
+    padding: 20px 0px;
+}
+.edu_em2 img,.edu_em3 img,.edu_em4 img{
+    float: none;
+    width: 70%;
+    margin: 0 15%;
+}
+.edu_em0 h6{
+    padding: 5px 0 12px 50px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.edu_em2 h6{
+    background-image: url(../img/img_product_edu/1.png);
+}
+.edu_em3 h6{
+    background-image: url(../img/img_product_edu/2.png);
+}
+.edu_em4 h6{
+    background-image: url(../img/img_product_edu/3.png);
+}
+.edu_em5 h6{
+    background-image: url(../img/img_product_edu/4.jpg);
+}
+.edu_em3 p,.edu_em4 p,.edu_em5 p{
+    background-image: url(../img/img_aboutus/dot.png);
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    padding-left: 20px;
+}
+.edu_em3 p{
+    margin: 20px 0 40px 0;
+}
+.edu_em2,.edu_em3,.edu_em4{
+    border-bottom: 1px dashed #8080806e;
+}
+.edu_em2,.edu_em3,.edu_em4{
+    margin-bottom: 40px;
+}
+.edu_em4{
+    padding-bottom: 40px;
+}
+.hide1{
+    display: none;
+}
+.hide2{
+    display: none;
+}
+.hide3{
+    display: none;
+}

@@ -92,11 +92,13 @@ body {
     margin-top: 20px;
 }
 .nr1 ul li{
-    padding: 15px 0 13px 0;
+    padding: 9px 0 5px 0;
     border-bottom: 1px solid #80808063;
 }
 .nr1 ul li a{
     font-size: 14px;
+    display: block;
+    text-indent: 2em;
 }
 .nr1 ul li a:hover{
     color:black;
@@ -208,4 +210,10 @@ body {
 }
 .top-lbt .slides > li{
     margin: 0 auto;
+}
+.topback{
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 100;
 }
